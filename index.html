@@ -3,13 +3,14 @@
   <head>
     <title>Railsチュートリアル初心者シリーズ</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
 
-    <div>
-      <a href="index.html">homeページ</a>
-      <a href="tags.html">HTMLタグ一覧</a>
-      <a href="moby_dick.html">読書案内「Mody Dick」</a>
+    <div id="main-nav"class="nav-menu">
+      <a href="index.html" style="text-decoration: none;">homeページ</a>
+      <a href="tags.html" style="text-decoration: none;" class="nav-spacing">HTMLタグ一覧</a>
+      <a href="moby_dick.html"style="text-decoration: none;"class="nav-spacing">読書案内「Mody Dick」</a>
     </div>
     <h1>Learn Enoughのあらまし</h1>
     <p>
@@ -18,7 +19,7 @@
     </p>
     <p>
       <a href="https://twitter.com/RailsTutorialJP" target="_blank"
-      rel="noopener" style="text-decoration: none;">
+      rel="noopener" class="image-link">
         <img src="images/small_twitter_logo.png">
       </a>
       RailsチュートリアルのTwitterフォローをお願いします:
@@ -31,12 +32,26 @@
     <a href="https://www.flickr.com/photos/deborah_s_perspective/14144861329">
       <img src="images/kitten.jpg" alt="愛くるしい子猫">
     </a>
+
+    <h2>名言</h2>
+    <blockquote style="padding: 2px 20px; background: #fcfcfc;">
+        <p>
+          <em>インターネット上で見つけた名言をうのみにしてはならない。</em>
+          <br>
+          —エイブラハム・リンカーン（Abraham Lincoln）
+        </p>
+      </blockquote>
+
     <h2>創立までの流れ</h2>
+    <p>
+        本Webサイトでは、世界中から集めた多くの猫ちゃん動画のほかに、さまざまな名言もふんだんに掲載されています（おそらくここまでやったサイトはないでしょう）。
+    </p>
+  
     <p>
       『Learn Enough to Be Dangerous』は、<a href="https://railstutorial.jp">Ruby on Railsチュートリアル</a>事業および<a href="https://www.softcover">Softcover: 出版プラットフォーム</a>事業から必然的に生まれました。このページは、<a href="https://railstutorial.jp/web_basics"><em>Web基礎編「HTML」</em></a>で用いるサンプルWebサイトの一部です。同書では、World Wide Webで全面的に利用されている言語であるHTML（<strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage）の基礎を学べます。その他のチュートリアル情報にご興味のある方は、<a href="https://railstutorial.jp/learnenough">初心者シリーズ</a>もどうぞご覧ください。
     </p>
     
-
+    <h2 id="founders">創立メンバー</h2>
     <h3>マイケル・ハートル</h3>
     <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150"
      alt="マイケル・ハートル">
